@@ -1,0 +1,20 @@
+# Ignore datasets
+*.csv
+*.xlsx
+*.zip
+
+# Ignore ML models
+*.pkl
+*.model
+*.h5
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+env/
