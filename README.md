@@ -66,10 +66,15 @@ Model training is done in the training.ipynb notebook.
 
 Steps:
 Load dataset
+
 -> Clean text (lowercase, remove punctuation, stopwords, etc.)
+
 -> Train Word2Vec model
+
 -> Convert text to vectors
+
 -> Train MLPClassifier
+
 -> Evaluate accuracy, precision, recall
 
 Save models:
