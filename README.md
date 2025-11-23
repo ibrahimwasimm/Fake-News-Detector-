@@ -4,8 +4,11 @@ The Fake News Detection System is a machine-learning based web application that 
 The project uses a combination of:
 
 -> Word2Vec embeddings for text vectorization
+
 -> MLP (Multi-Layer Perceptron) classifier for prediction
+
 -> Streamlit for an interactive and visually appealing front-end
+
 -> Cleaned dataset with labels (Fake = 0, Real = 1)
 
 This project is ideal for learning NLP, machine learning pipelines, and deploying ML models as simple web apps.
@@ -13,59 +16,43 @@ This project is ideal for learning NLP, machine learning pipelines, and deployin
 🧠 Project Features
 
 ✔ Clean data preprocessing
+
 ✔ Word2Vec model training & vectorization
+
 ✔ MLP classifier (trained & saved with pickle)
+
 ✔ Real-time text prediction via Streamlit
+
 ✔ Gradient-styled UI
+
 ✔ Handles long news articles
+
 ✔ Displays classification result clearly
+
 ✔ Supports copying & pasting large paragraphs
 
-📂 Project Structure
-
-Fake-News-Detection/
-│
-├── model/
-│   ├── word2vec.model
-│   ├── mlp_model.pkl
-│   └── vectorizer.pkl      (if used)
-│
-├── notebooks/
-│   └── training.ipynb      (model training & testing)
-│
-├── app/
-│   └── app.py              (Streamlit web app)
-│
-├── data/
-│   ├── train.csv
-│   ├── test.csv
-│   └── cleaned_data.csv
-│
-├── assets/
-│   └── style.css           (optional styling)
-│
-├── requirements.txt
-└── README.md
 
 ⚙️ Installation & Setup
+
 1. Clone the Repository
 git clone https://github.com/your-username/fake-news-detection.git
 cd fake-news-detection
 
-2. Create Virtual Environment (Optional)
+3. Create Virtual Environment (Optional)
+   
 python -m venv venv
 source venv/bin/activate     # Mac/Linux
 venv\Scripts\activate        # Windows
 
-3. Install Dependencies
+5. Install Dependencies
 pip install -r requirements.txt
 
 📊 Training the Model
 
 Model training is done in the training.ipynb notebook.
 
-Steps:
-Load dataset
+Steps: 
+-> Load dataset
 
 -> Clean text (lowercase, remove punctuation, stopwords, etc.)
 
